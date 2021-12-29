@@ -1,3 +1,7 @@
+import os
+from pathlib import Path
+import openpyxl
+
 def to_delete(filename,ori_col,ori_row,path_to_folder):
     initial_path = Path(path_to_folder)
     path_file_list = os.listdir(path_to_folder)
